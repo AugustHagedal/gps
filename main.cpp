@@ -1,19 +1,7 @@
 #include <iostream>
 #include <vector>
-using namespace std;
-
-struct Node {
-    double lat, lon;
-};
-
-struct Edge {
-    int to, w;
-};
-
-void dijkstra(const vector<vector<Edge>>& graph, int src, vector<int>& dist,vector<int>&prev);
-void add_edge(vector<vector<Edge>>& graph,int src, int dest, int w) {
-    graph[src].push_back({dest,w});
-}
+#include <math.h>
+#include "main.h"
 
 int main() {
     int n = 6;
@@ -62,3 +50,21 @@ void dijkstra(const vector<vector<Edge>>& graph, int src, vector<int>& dist,vect
     }
 }
 
+
+double haversine(double lat1, double lon1, double lat2, double lon2) {
+    const double R = 6378000.0 * 2;
+    auto rad = [](double deg){return deg * M_PI / 180;};
+    double dlat = rad(lat2-lat1);
+    double dlon = rad(lon2-lon1);
+    double distance = R * sin(dlat/2) * sin(dlat/2)
+    +cos(rad(lat1))*cos(rad(lat2))*sin(dlon/2)*sin(dlon/2);
+    return 2 * R * asin(sqrt(distance));
+}
+
+void add_road(vector<vector<Edge>>& G, const vector<Node>& nodes,int u, int v){
+    int w = (int)llround(haversine(nodes[u].lat,nodes[u].lon,
+    nodes[v].lat,nodes[v].lon));
+
+    G[u].push_back({v,w});
+
+}
