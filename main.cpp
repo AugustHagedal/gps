@@ -3,23 +3,42 @@
 #include <math.h>
 #include "main.h"
 
-int main() {
-    int n = 6;
-    vector<vector<Edge>> Graph(n);
-    add_edge(Graph,0,1,4);
-    add_edge(Graph,0,2,2);
-    add_edge(Graph,1,4,1);
-    add_edge(Graph,2,1,1);
-    add_edge(Graph,3,4,3);
-    add_edge(Graph,3,5,6);
-    add_edge(Graph,4,5,3);
 
+int main() {
+    vector <Node> Nodes = {
+        {57.0463891, 9.9135551},
+        {57.0467164,9.9141827},
+        {57.0461667,9.9148274},
+        {57.0470625, 9.9145806},
+        {57.0478946,9.9155201},
+        {57.0475035, 9.9167926},
+        {57.0466836, 9.9160344},
+        {57.0461981, 9.9188502},
+        {57.0467068, 9.9147912},
+        {57.0460351, 9.9156376},
+        {57.0458007, 9.9152305},
+    };
+    int n = Nodes.size();
+    vector<vector<Edge>> Graph(n);
+
+    add_road(Graph,Nodes,0,1);
+    add_road(Graph,Nodes,1,2);
+    add_road(Graph,Nodes,2,10);
+    add_road(Graph,Nodes,1,3);
+    add_road(Graph,Nodes,3,4);
+    add_road(Graph,Nodes,4,5);
+    add_road(Graph,Nodes,5,6);
+    add_road(Graph,Nodes,6,7);
+    add_road(Graph,Nodes,6,8);
+    add_road(Graph,Nodes,8,9);
+    add_road(Graph,Nodes,9,10);
+    add_road(Graph,Nodes,10,2);
 
     vector<int> dist,prev;
     int src = 0;
     dijkstra(Graph, src, dist, prev);
+    cout << dist[10] << endl;
 
-    cout << dist[5] << endl;
 }
 
 
@@ -41,7 +60,7 @@ void dijkstra(const vector<vector<Edge>>& graph, int src, vector<int>& dist,vect
             int nd = d+e.w;
             int v = e.to;
             if (nd < dist[v]) {
-                cout << u << "->" << v << " koster: " << e.w << " samlet: " << nd << endl;
+                cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << nd << "m"<< endl;
                 dist[v] = nd;
                 prev[v] = u;
                 pq.push({nd, v});
@@ -52,11 +71,11 @@ void dijkstra(const vector<vector<Edge>>& graph, int src, vector<int>& dist,vect
 
 
 double haversine(double lat1, double lon1, double lat2, double lon2) {
-    const double R = 6378000.0 * 2;
+    const double R = 6378000.0;
     auto rad = [](double deg){return deg * M_PI / 180;};
     double dlat = rad(lat2-lat1);
     double dlon = rad(lon2-lon1);
-    double distance = R * sin(dlat/2) * sin(dlat/2)
+    double distance = sin(dlat/2) * sin(dlat/2)
     +cos(rad(lat1))*cos(rad(lat2))*sin(dlon/2)*sin(dlon/2);
     return 2 * R * asin(sqrt(distance));
 }

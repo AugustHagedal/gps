@@ -14,4 +14,4 @@ void add_edge(vector<vector<Edge>>& graph,int src, int dest, int w) {
     graph[src].push_back({dest,w});
 }
 
-void add_road(vector<vector<Edge>>&);
+void add_road(vector<vector<Edge>>& G, const vector<Node>& nodes,int u, int v);
