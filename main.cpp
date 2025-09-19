@@ -21,18 +21,17 @@ int main() {
     int n = Nodes.size();
     vector<vector<Edge>> Graph(n);
 
-    add_road(Graph,Nodes,0,1);
-    add_road(Graph,Nodes,1,2);
-    add_road(Graph,Nodes,2,10);
-    add_road(Graph,Nodes,1,3);
-    add_road(Graph,Nodes,3,4);
-    add_road(Graph,Nodes,4,5);
-    add_road(Graph,Nodes,5,6);
-    add_road(Graph,Nodes,6,7);
-    add_road(Graph,Nodes,6,8);
-    add_road(Graph,Nodes,8,9);
-    add_road(Graph,Nodes,9,10);
-    add_road(Graph,Nodes,10,2);
+    add_road(Graph,Nodes,0,1, true);
+    add_road(Graph,Nodes,1,2, true);
+    add_road(Graph,Nodes,2,10, false);
+    add_road(Graph,Nodes,1,3, true);
+    add_road(Graph,Nodes,3,4, true);
+    add_road(Graph,Nodes,4,5, true);
+    add_road(Graph,Nodes,5,6, true);
+    add_road(Graph,Nodes,6,7, true);
+    add_road(Graph,Nodes,6,8, true);
+    add_road(Graph,Nodes,8,9, true);
+    add_road(Graph,Nodes,9,10, true);
 
     vector<int> dist,prev;
     int src = 0;
@@ -80,10 +79,10 @@ double haversine(double lat1, double lon1, double lat2, double lon2) {
     return 2 * R * asin(sqrt(distance));
 }
 
-void add_road(vector<vector<Edge>>& G, const vector<Node>& nodes,int u, int v){
+void add_road(vector<vector<Edge>>& G, const vector<Node>& nodes,int u, int v, bool oneway){
     int w = (int)llround(haversine(nodes[u].lat,nodes[u].lon,
     nodes[v].lat,nodes[v].lon));
 
     G[u].push_back({v,w});
-
+    if (!oneway) G[v].push_back({u,w});
 }
