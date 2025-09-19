@@ -1,0 +1,4201 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.8 e802775f",
+  "osm3s": {
+    "timestamp_osm_base": "2025-09-19T10:23:03Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 28390851,
+      "lat": 57.0480122,
+      "lon": 9.9155461,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 28390853,
+      "lat": 57.0478455,
+      "lon": 9.9156869,
+      "tags": {
+        "button_operated": "no",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "crossing:signals": "yes",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 28390856,
+      "lat": 57.0470625,
+      "lon": 9.9145806
+    },
+    {
+      "type": "node",
+      "id": 29978686,
+      "lat": 57.0460351,
+      "lon": 9.9156376
+    },
+    {
+      "type": "node",
+      "id": 29978688,
+      "lat": 57.0469128,
+      "lon": 9.9188079,
+      "tags": {
+        "crossing": "informal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29978689,
+      "lat": 57.0475035,
+      "lon": 9.9167926
+    },
+    {
+      "type": "node",
+      "id": 29978692,
+      "lat": 57.0454337,
+      "lon": 9.9155571
+    },
+    {
+      "type": "node",
+      "id": 29978702,
+      "lat": 57.0438613,
+      "lon": 9.9170938
+    },
+    {
+      "type": "node",
+      "id": 59316575,
+      "lat": 57.0481754,
+      "lon": 9.9172927
+    },
+    {
+      "type": "node",
+      "id": 60116062,
+      "lat": 57.0463645,
+      "lon": 9.9134988
+    },
+    {
+      "type": "node",
+      "id": 60116063,
+      "lat": 57.0467648,
+      "lon": 9.9140704
+    },
+    {
+      "type": "node",
+      "id": 60116069,
+      "lat": 57.0478039,
+      "lon": 9.9147823
+    },
+    {
+      "type": "node",
+      "id": 60126669,
+      "lat": 57.0465581,
+      "lon": 9.9137058
+    },
+    {
+      "type": "node",
+      "id": 60126670,
+      "lat": 57.0464987,
+      "lon": 9.9137577
+    },
+    {
+      "type": "node",
+      "id": 279727745,
+      "lat": 57.048285,
+      "lon": 9.9212414
+    },
+    {
+      "type": "node",
+      "id": 279727746,
+      "lat": 57.0485018,
+      "lon": 9.9198624
+    },
+    {
+      "type": "node",
+      "id": 279727749,
+      "lat": 57.0484784,
+      "lon": 9.9185064
+    },
+    {
+      "type": "node",
+      "id": 279727750,
+      "lat": 57.0479743,
+      "lon": 9.9182433
+    },
+    {
+      "type": "node",
+      "id": 279727751,
+      "lat": 57.0485281,
+      "lon": 9.9194579
+    },
+    {
+      "type": "node",
+      "id": 280827110,
+      "lat": 57.0489563,
+      "lon": 9.9188074
+    },
+    {
+      "type": "node",
+      "id": 316449373,
+      "lat": 57.0455515,
+      "lon": 9.9183706
+    },
+    {
+      "type": "node",
+      "id": 316820788,
+      "lat": 57.0466544,
+      "lon": 9.9195368
+    },
+    {
+      "type": "node",
+      "id": 357260765,
+      "lat": 57.0456308,
+      "lon": 9.9161686
+    },
+    {
+      "type": "node",
+      "id": 357260767,
+      "lat": 57.044301,
+      "lon": 9.9177021
+    },
+    {
+      "type": "node",
+      "id": 357260845,
+      "lat": 57.0442383,
+      "lon": 9.9183967
+    },
+    {
+      "type": "node",
+      "id": 357261295,
+      "lat": 57.0440713,
+      "lon": 9.9202815
+    },
+    {
+      "type": "node",
+      "id": 357261551,
+      "lat": 57.0440155,
+      "lon": 9.9209735
+    },
+    {
+      "type": "node",
+      "id": 357261595,
+      "lat": 57.0439834,
+      "lon": 9.9214107
+    },
+    {
+      "type": "node",
+      "id": 357262549,
+      "lat": 57.0459119,
+      "lon": 9.9163285
+    },
+    {
+      "type": "node",
+      "id": 357264574,
+      "lat": 57.0441503,
+      "lon": 9.9193793
+    },
+    {
+      "type": "node",
+      "id": 364328730,
+      "lat": 57.0459763,
+      "lon": 9.9186261
+    },
+    {
+      "type": "node",
+      "id": 370559164,
+      "lat": 57.0480152,
+      "lon": 9.9179744
+    },
+    {
+      "type": "node",
+      "id": 577348543,
+      "lat": 57.0484382,
+      "lon": 9.9184722
+    },
+    {
+      "type": "node",
+      "id": 641420130,
+      "lat": 57.0448057,
+      "lon": 9.9195727
+    },
+    {
+      "type": "node",
+      "id": 641420142,
+      "lat": 57.0450307,
+      "lon": 9.9182879
+    },
+    {
+      "type": "node",
+      "id": 836620042,
+      "lat": 57.0464978,
+      "lon": 9.9159269
+    },
+    {
+      "type": "node",
+      "id": 836622614,
+      "lat": 57.0466836,
+      "lon": 9.9160344
+    },
+    {
+      "type": "node",
+      "id": 836622636,
+      "lat": 57.0461981,
+      "lon": 9.9188502
+    },
+    {
+      "type": "node",
+      "id": 850154929,
+      "lat": 57.0442231,
+      "lon": 9.9143472
+    },
+    {
+      "type": "node",
+      "id": 850154931,
+      "lat": 57.0441523,
+      "lon": 9.9147817
+    },
+    {
+      "type": "node",
+      "id": 850154933,
+      "lat": 57.0442169,
+      "lon": 9.9150782
+    },
+    {
+      "type": "node",
+      "id": 850154934,
+      "lat": 57.0442399,
+      "lon": 9.9151749
+    },
+    {
+      "type": "node",
+      "id": 850154936,
+      "lat": 57.043788,
+      "lon": 9.9155338
+    },
+    {
+      "type": "node",
+      "id": 850154943,
+      "lat": 57.0459235,
+      "lon": 9.9137107
+    },
+    {
+      "type": "node",
+      "id": 850154946,
+      "lat": 57.0453631,
+      "lon": 9.9126314
+    },
+    {
+      "type": "node",
+      "id": 861509130,
+      "lat": 57.0484381,
+      "lon": 9.9204227
+    },
+    {
+      "type": "node",
+      "id": 861509221,
+      "lat": 57.0478181,
+      "lon": 9.9188113
+    },
+    {
+      "type": "node",
+      "id": 861509264,
+      "lat": 57.048508,
+      "lon": 9.9189688
+    },
+    {
+      "type": "node",
+      "id": 904827225,
+      "lat": 57.0446551,
+      "lon": 9.9121624
+    },
+    {
+      "type": "node",
+      "id": 1024029527,
+      "lat": 57.0441695,
+      "lon": 9.9148959
+    },
+    {
+      "type": "node",
+      "id": 1025502372,
+      "lat": 57.0468133,
+      "lon": 9.9161225
+    },
+    {
+      "type": "node",
+      "id": 1025502416,
+      "lat": 57.0483655,
+      "lon": 9.9209214
+    },
+    {
+      "type": "node",
+      "id": 1025502420,
+      "lat": 57.0473315,
+      "lon": 9.9166146
+    },
+    {
+      "type": "node",
+      "id": 1025558636,
+      "lat": 57.0485011,
+      "lon": 9.9185521
+    },
+    {
+      "type": "node",
+      "id": 1025558660,
+      "lat": 57.0482884,
+      "lon": 9.9166401
+    },
+    {
+      "type": "node",
+      "id": 1064597960,
+      "lat": 57.0442947,
+      "lon": 9.9139378
+    },
+    {
+      "type": "node",
+      "id": 1064597975,
+      "lat": 57.0444774,
+      "lon": 9.912879
+    },
+    {
+      "type": "node",
+      "id": 1064597976,
+      "lat": 57.0440635,
+      "lon": 9.9151709
+    },
+    {
+      "type": "node",
+      "id": 1064598004,
+      "lat": 57.0441317,
+      "lon": 9.9126661
+    },
+    {
+      "type": "node",
+      "id": 1064598005,
+      "lat": 57.0440074,
+      "lon": 9.9151792,
+      "tags": {
+        "amenity": "parking_entrance",
+        "maxheight": "2.1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1064598006,
+      "lat": 57.0451835,
+      "lon": 9.9134785
+    },
+    {
+      "type": "node",
+      "id": 1064598012,
+      "lat": 57.04407,
+      "lon": 9.9128353
+    },
+    {
+      "type": "node",
+      "id": 1064598018,
+      "lat": 57.044178,
+      "lon": 9.9146267
+    },
+    {
+      "type": "node",
+      "id": 1064598024,
+      "lat": 57.0444261,
+      "lon": 9.91314
+    },
+    {
+      "type": "node",
+      "id": 1064598031,
+      "lat": 57.0440869,
+      "lon": 9.9147008,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1064598033,
+      "lat": 57.0442476,
+      "lon": 9.9142074
+    },
+    {
+      "type": "node",
+      "id": 1064598039,
+      "lat": 57.0440888,
+      "lon": 9.9153024
+    },
+    {
+      "type": "node",
+      "id": 1064598047,
+      "lat": 57.044093,
+      "lon": 9.9126988
+    },
+    {
+      "type": "node",
+      "id": 1064598054,
+      "lat": 57.0443398,
+      "lon": 9.9136663
+    },
+    {
+      "type": "node",
+      "id": 1064598058,
+      "lat": 57.044093,
+      "lon": 9.9129353
+    },
+    {
+      "type": "node",
+      "id": 1064598064,
+      "lat": 57.0441598,
+      "lon": 9.9147373
+    },
+    {
+      "type": "node",
+      "id": 1064602111,
+      "lat": 57.0456885,
+      "lon": 9.9140105
+    },
+    {
+      "type": "node",
+      "id": 1064629672,
+      "lat": 57.0460394,
+      "lon": 9.913823
+    },
+    {
+      "type": "node",
+      "id": 1064674158,
+      "lat": 57.0446895,
+      "lon": 9.9163182
+    },
+    {
+      "type": "node",
+      "id": 1064674173,
+      "lat": 57.0451491,
+      "lon": 9.9157228
+    },
+    {
+      "type": "node",
+      "id": 1064674209,
+      "lat": 57.0446621,
+      "lon": 9.9162397
+    },
+    {
+      "type": "node",
+      "id": 1064674254,
+      "lat": 57.0451768,
+      "lon": 9.9158059
+    },
+    {
+      "type": "node",
+      "id": 1064727163,
+      "lat": 57.0448727,
+      "lon": 9.9192096
+    },
+    {
+      "type": "node",
+      "id": 1201440142,
+      "lat": 57.04886,
+      "lon": 9.9151863
+    },
+    {
+      "type": "node",
+      "id": 1201440159,
+      "lat": 57.0488482,
+      "lon": 9.9144432
+    },
+    {
+      "type": "node",
+      "id": 1201440174,
+      "lat": 57.0487047,
+      "lon": 9.9150911
+    },
+    {
+      "type": "node",
+      "id": 1272395292,
+      "lat": 57.0489604,
+      "lon": 9.9161391
+    },
+    {
+      "type": "node",
+      "id": 1345222743,
+      "lat": 57.0476527,
+      "lon": 9.9162829
+    },
+    {
+      "type": "node",
+      "id": 1608578441,
+      "lat": 57.0438898,
+      "lon": 9.917185
+    },
+    {
+      "type": "node",
+      "id": 1613248229,
+      "lat": 57.047642,
+      "lon": 9.9147635,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1613248230,
+      "lat": 57.0480501,
+      "lon": 9.9141788
+    },
+    {
+      "type": "node",
+      "id": 1613248231,
+      "lat": 57.0481993,
+      "lon": 9.9136887
+    },
+    {
+      "type": "node",
+      "id": 1613248232,
+      "lat": 57.0482272,
+      "lon": 9.9136559
+    },
+    {
+      "type": "node",
+      "id": 1613248234,
+      "lat": 57.0482595,
+      "lon": 9.9136793
+    },
+    {
+      "type": "node",
+      "id": 1613248240,
+      "lat": 57.0484586,
+      "lon": 9.9119888
+    },
+    {
+      "type": "node",
+      "id": 1613248247,
+      "lat": 57.048545,
+      "lon": 9.9119353
+    },
+    {
+      "type": "node",
+      "id": 1613248252,
+      "lat": 57.0486539,
+      "lon": 9.9142052
+    },
+    {
+      "type": "node",
+      "id": 1613248259,
+      "lat": 57.0487724,
+      "lon": 9.9138862
+    },
+    {
+      "type": "node",
+      "id": 1613248269,
+      "lat": 57.0488685,
+      "lon": 9.911476
+    },
+    {
+      "type": "node",
+      "id": 1613248283,
+      "lat": 57.0489484,
+      "lon": 9.9136979
+    },
+    {
+      "type": "node",
+      "id": 1613248284,
+      "lat": 57.04897,
+      "lon": 9.9115104
+    },
+    {
+      "type": "node",
+      "id": 1613267869,
+      "lat": 57.0488207,
+      "lon": 9.9138202
+    },
+    {
+      "type": "node",
+      "id": 1613272638,
+      "lat": 57.0487416,
+      "lon": 9.9116162
+    },
+    {
+      "type": "node",
+      "id": 1711239488,
+      "lat": 57.045815,
+      "lon": 9.9185058
+    },
+    {
+      "type": "node",
+      "id": 1711239490,
+      "lat": 57.0453955,
+      "lon": 9.9183285,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1711239495,
+      "lat": 57.0456793,
+      "lon": 9.9184314,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1711239499,
+      "lat": 57.0462541,
+      "lon": 9.9189161
+    },
+    {
+      "type": "node",
+      "id": 1711239502,
+      "lat": 57.0460776,
+      "lon": 9.9187069
+    },
+    {
+      "type": "node",
+      "id": 1711239504,
+      "lat": 57.046422,
+      "lon": 9.9191742
+    },
+    {
+      "type": "node",
+      "id": 1711239524,
+      "lat": 57.0451978,
+      "lon": 9.9182992
+    },
+    {
+      "type": "node",
+      "id": 1769728735,
+      "lat": 57.0489964,
+      "lon": 9.9135388
+    },
+    {
+      "type": "node",
+      "id": 1794069504,
+      "lat": 57.0488755,
+      "lon": 9.9161008
+    },
+    {
+      "type": "node",
+      "id": 2254770769,
+      "lat": 57.0483427,
+      "lon": 9.91842
+    },
+    {
+      "type": "node",
+      "id": 2254770771,
+      "lat": 57.0483938,
+      "lon": 9.9178233
+    },
+    {
+      "type": "node",
+      "id": 2499260140,
+      "lat": 57.0483324,
+      "lon": 9.9131304
+    },
+    {
+      "type": "node",
+      "id": 2499260142,
+      "lat": 57.0484003,
+      "lon": 9.9121044
+    },
+    {
+      "type": "node",
+      "id": 2499260144,
+      "lat": 57.0485524,
+      "lon": 9.911812
+    },
+    {
+      "type": "node",
+      "id": 2723701152,
+      "lat": 57.0442829,
+      "lon": 9.9134873,
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "capacity": "16",
+        "operator": "First Hotel Eiropa",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2723701159,
+      "lat": 57.0442882,
+      "lon": 9.913459
+    },
+    {
+      "type": "node",
+      "id": 2723701206,
+      "lat": 57.0440289,
+      "lon": 9.9134786
+    },
+    {
+      "type": "node",
+      "id": 2723701212,
+      "lat": 57.0440509,
+      "lon": 9.9133425
+    },
+    {
+      "type": "node",
+      "id": 2804437608,
+      "lat": 57.0478062,
+      "lon": 9.915372,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2818251600,
+      "lat": 57.0464132,
+      "lon": 9.9136288
+    },
+    {
+      "type": "node",
+      "id": 2818253808,
+      "lat": 57.0464735,
+      "lon": 9.9135685,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2818483565,
+      "lat": 57.0467868,
+      "lon": 9.9191717,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2831200086,
+      "lat": 57.044127,
+      "lon": 9.9133437
+    },
+    {
+      "type": "node",
+      "id": 2831200087,
+      "lat": 57.0442737,
+      "lon": 9.9134369
+    },
+    {
+      "type": "node",
+      "id": 2835247751,
+      "lat": 57.0490062,
+      "lon": 9.9134489
+    },
+    {
+      "type": "node",
+      "id": 2835247753,
+      "lat": 57.0489654,
+      "lon": 9.9136587
+    },
+    {
+      "type": "node",
+      "id": 2835247766,
+      "lat": 57.0489179,
+      "lon": 9.9137299
+    },
+    {
+      "type": "node",
+      "id": 2835247768,
+      "lat": 57.0489816,
+      "lon": 9.9136079
+    },
+    {
+      "type": "node",
+      "id": 2877238525,
+      "lat": 57.047068,
+      "lon": 9.9150503
+    },
+    {
+      "type": "node",
+      "id": 2877238527,
+      "lat": 57.0470616,
+      "lon": 9.915126,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2879817883,
+      "lat": 57.0487483,
+      "lon": 9.9148315
+    },
+    {
+      "type": "node",
+      "id": 2879817891,
+      "lat": 57.0487926,
+      "lon": 9.9146203
+    },
+    {
+      "type": "node",
+      "id": 2879817895,
+      "lat": 57.0487547,
+      "lon": 9.9147937
+    },
+    {
+      "type": "node",
+      "id": 2879817898,
+      "lat": 57.0489276,
+      "lon": 9.9149404
+    },
+    {
+      "type": "node",
+      "id": 3358837537,
+      "lat": 57.0475571,
+      "lon": 9.9201987
+    },
+    {
+      "type": "node",
+      "id": 3393608103,
+      "lat": 57.044022,
+      "lon": 9.917037
+    },
+    {
+      "type": "node",
+      "id": 3393608104,
+      "lat": 57.0439971,
+      "lon": 9.916949
+    },
+    {
+      "type": "node",
+      "id": 3397230925,
+      "lat": 57.0463451,
+      "lon": 9.919056,
+      "tags": {
+        "bus": "yes",
+        "name": "Boulevarden",
+        "public_transport": "stop_position",
+        "ref": "851007401"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3498815885,
+      "lat": 57.0491609,
+      "lon": 9.9148907
+    },
+    {
+      "type": "node",
+      "id": 3498815886,
+      "lat": 57.0491904,
+      "lon": 9.9149184
+    },
+    {
+      "type": "node",
+      "id": 3498815887,
+      "lat": 57.0492178,
+      "lon": 9.9149272
+    },
+    {
+      "type": "node",
+      "id": 3498852465,
+      "lat": 57.0479099,
+      "lon": 9.9154605
+    },
+    {
+      "type": "node",
+      "id": 3498852466,
+      "lat": 57.0475847,
+      "lon": 9.9151449
+    },
+    {
+      "type": "node",
+      "id": 3498852467,
+      "lat": 57.0482225,
+      "lon": 9.9157744
+    },
+    {
+      "type": "node",
+      "id": 3498852468,
+      "lat": 57.0480257,
+      "lon": 9.915646
+    },
+    {
+      "type": "node",
+      "id": 3498852469,
+      "lat": 57.0479864,
+      "lon": 9.915608
+    },
+    {
+      "type": "node",
+      "id": 3498852470,
+      "lat": 57.0478946,
+      "lon": 9.9155201
+    },
+    {
+      "type": "node",
+      "id": 3498852472,
+      "lat": 57.0477938,
+      "lon": 9.9154206,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "no",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3498852473,
+      "lat": 57.0475679,
+      "lon": 9.9151941
+    },
+    {
+      "type": "node",
+      "id": 3498852474,
+      "lat": 57.0475129,
+      "lon": 9.915109
+    },
+    {
+      "type": "node",
+      "id": 3498996476,
+      "lat": 57.0482438,
+      "lon": 9.9136617
+    },
+    {
+      "type": "node",
+      "id": 3498996477,
+      "lat": 57.0482132,
+      "lon": 9.9136645
+    },
+    {
+      "type": "node",
+      "id": 3498996478,
+      "lat": 57.0476715,
+      "lon": 9.9147756
+    },
+    {
+      "type": "node",
+      "id": 3498996479,
+      "lat": 57.0474527,
+      "lon": 9.9150464
+    },
+    {
+      "type": "node",
+      "id": 3498996480,
+      "lat": 57.0475982,
+      "lon": 9.9147313
+    },
+    {
+      "type": "node",
+      "id": 3498996481,
+      "lat": 57.0475676,
+      "lon": 9.9149466
+    },
+    {
+      "type": "node",
+      "id": 3498996482,
+      "lat": 57.0475093,
+      "lon": 9.9149011
+    },
+    {
+      "type": "node",
+      "id": 3548069000,
+      "lat": 57.0447661,
+      "lon": 9.9161264,
+      "tags": {
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548069001,
+      "lat": 57.0447902,
+      "lon": 9.9162069,
+      "tags": {
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548069002,
+      "lat": 57.0452739,
+      "lon": 9.9156115,
+      "tags": {
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548069003,
+      "lat": 57.0452971,
+      "lon": 9.9156874,
+      "tags": {
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548078700,
+      "lat": 57.045437,
+      "lon": 9.9183391,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548493242,
+      "lat": 57.0466325,
+      "lon": 9.9140226,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548493243,
+      "lat": 57.0466847,
+      "lon": 9.9139401
+    },
+    {
+      "type": "node",
+      "id": 3548493244,
+      "lat": 57.0468124,
+      "lon": 9.9143733,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548493247,
+      "lat": 57.0468726,
+      "lon": 9.9142274,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548493248,
+      "lat": 57.0469012,
+      "lon": 9.9142677,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548499854,
+      "lat": 57.0471777,
+      "lon": 9.9147208
+    },
+    {
+      "type": "node",
+      "id": 3548499855,
+      "lat": 57.0471249,
+      "lon": 9.9146565
+    },
+    {
+      "type": "node",
+      "id": 3548499856,
+      "lat": 57.0472228,
+      "lon": 9.9147756
+    },
+    {
+      "type": "node",
+      "id": 3548505990,
+      "lat": 57.0462305,
+      "lon": 9.9133719,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548505991,
+      "lat": 57.0462653,
+      "lon": 9.9134038,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3548521007,
+      "lat": 57.0452538,
+      "lon": 9.9115269
+    },
+    {
+      "type": "node",
+      "id": 3548538907,
+      "lat": 57.0468591,
+      "lon": 9.9144365
+    },
+    {
+      "type": "node",
+      "id": 3672136766,
+      "lat": 57.0463891,
+      "lon": 9.9135551
+    },
+    {
+      "type": "node",
+      "id": 3672136767,
+      "lat": 57.0464136,
+      "lon": 9.9135342
+    },
+    {
+      "type": "node",
+      "id": 3672136769,
+      "lat": 57.0467164,
+      "lon": 9.9141827
+    },
+    {
+      "type": "node",
+      "id": 3672136770,
+      "lat": 57.0489277,
+      "lon": 9.9161235
+    },
+    {
+      "type": "node",
+      "id": 3672136771,
+      "lat": 57.0490408,
+      "lon": 9.916173
+    },
+    {
+      "type": "node",
+      "id": 3672169926,
+      "lat": 57.0441312,
+      "lon": 9.9151417
+    },
+    {
+      "type": "node",
+      "id": 3672169927,
+      "lat": 57.0446016,
+      "lon": 9.9124211,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3672169928,
+      "lat": 57.0446232,
+      "lon": 9.9123267,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "tactile_paving": "no",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3725561549,
+      "lat": 57.0437485,
+      "lon": 9.9184901,
+      "tags": {
+        "crossing": "informal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3729926476,
+      "lat": 57.0441006,
+      "lon": 9.9168351,
+      "tags": {
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3729926477,
+      "lat": 57.0441289,
+      "lon": 9.9169277,
+      "tags": {
+        "crossing": "unmarked",
+        "highway": "crossing",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3736491746,
+      "lat": 57.0456446,
+      "lon": 9.9184114,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3736641621,
+      "lat": 57.0465212,
+      "lon": 9.9193272,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3736641622,
+      "lat": 57.0465787,
+      "lon": 9.9194181,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3736641624,
+      "lat": 57.0467068,
+      "lon": 9.9193994,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "yes",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "kerb": "lowered",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3738509251,
+      "lat": 57.0484166,
+      "lon": 9.9205757
+    },
+    {
+      "type": "node",
+      "id": 3738509253,
+      "lat": 57.0485238,
+      "lon": 9.9195233
+    },
+    {
+      "type": "node",
+      "id": 3738515671,
+      "lat": 57.0477067,
+      "lon": 9.9193422
+    },
+    {
+      "type": "node",
+      "id": 3738516036,
+      "lat": 57.0489564,
+      "lon": 9.9186509
+    },
+    {
+      "type": "node",
+      "id": 3738516180,
+      "lat": 57.0489502,
+      "lon": 9.9191521,
+      "tags": {
+        "barrier": "gate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3775855690,
+      "lat": 57.0489514,
+      "lon": 9.9195587
+    },
+    {
+      "type": "node",
+      "id": 3775855691,
+      "lat": 57.0485054,
+      "lon": 9.9198069
+    },
+    {
+      "type": "node",
+      "id": 3776284397,
+      "lat": 57.048624,
+      "lon": 9.9142926,
+      "tags": {
+        "access": "permissive",
+        "barrier": "lift_gate",
+        "mapillary": "148708157588847"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3776284398,
+      "lat": 57.0485122,
+      "lon": 9.914805
+    },
+    {
+      "type": "node",
+      "id": 3776284399,
+      "lat": 57.0484444,
+      "lon": 9.9152192
+    },
+    {
+      "type": "node",
+      "id": 3776284400,
+      "lat": 57.0485517,
+      "lon": 9.9146536
+    },
+    {
+      "type": "node",
+      "id": 3776284401,
+      "lat": 57.0482687,
+      "lon": 9.9145297
+    },
+    {
+      "type": "node",
+      "id": 3776284402,
+      "lat": 57.0483632,
+      "lon": 9.914104
+    },
+    {
+      "type": "node",
+      "id": 3776284403,
+      "lat": 57.0484157,
+      "lon": 9.9145909
+    },
+    {
+      "type": "node",
+      "id": 3776284404,
+      "lat": 57.048475,
+      "lon": 9.9142185
+    },
+    {
+      "type": "node",
+      "id": 4032577613,
+      "lat": 57.0482974,
+      "lon": 9.9211921
+    },
+    {
+      "type": "node",
+      "id": 4032577614,
+      "lat": 57.0483319,
+      "lon": 9.9210548
+    },
+    {
+      "type": "node",
+      "id": 4042020726,
+      "lat": 57.0483586,
+      "lon": 9.9129085
+    },
+    {
+      "type": "node",
+      "id": 4042020727,
+      "lat": 57.0484036,
+      "lon": 9.9122612
+    },
+    {
+      "type": "node",
+      "id": 4042020728,
+      "lat": 57.0484083,
+      "lon": 9.912488
+    },
+    {
+      "type": "node",
+      "id": 4319648886,
+      "lat": 57.045095,
+      "lon": 9.9114151
+    },
+    {
+      "type": "node",
+      "id": 4319648887,
+      "lat": 57.0451732,
+      "lon": 9.9114677
+    },
+    {
+      "type": "node",
+      "id": 4818634087,
+      "lat": 57.0448855,
+      "lon": 9.9170301
+    },
+    {
+      "type": "node",
+      "id": 5942858968,
+      "lat": 57.0489525,
+      "lon": 9.9183127
+    },
+    {
+      "type": "node",
+      "id": 5977756217,
+      "lat": 57.04836,
+      "lon": 9.9158662
+    },
+    {
+      "type": "node",
+      "id": 6020740609,
+      "lat": 57.0476258,
+      "lon": 9.9177169
+    },
+    {
+      "type": "node",
+      "id": 6020740610,
+      "lat": 57.0477248,
+      "lon": 9.9171942
+    },
+    {
+      "type": "node",
+      "id": 6060577988,
+      "lat": 57.0490516,
+      "lon": 9.9131021
+    },
+    {
+      "type": "node",
+      "id": 6119729709,
+      "lat": 57.0464265,
+      "lon": 9.9158825
+    },
+    {
+      "type": "node",
+      "id": 6146664809,
+      "lat": 57.0485166,
+      "lon": 9.9159403
+    },
+    {
+      "type": "node",
+      "id": 6146664810,
+      "lat": 57.0482989,
+      "lon": 9.9158324
+    },
+    {
+      "type": "node",
+      "id": 6146664811,
+      "lat": 57.0477791,
+      "lon": 9.915886,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6146664812,
+      "lat": 57.0477394,
+      "lon": 9.9153674,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6146664832,
+      "lat": 57.0459997,
+      "lon": 9.9131649
+    },
+    {
+      "type": "node",
+      "id": 7214881202,
+      "lat": 57.0469967,
+      "lon": 9.9185217
+    },
+    {
+      "type": "node",
+      "id": 7417394229,
+      "lat": 57.0466198,
+      "lon": 9.9138277
+    },
+    {
+      "type": "node",
+      "id": 7417394230,
+      "lat": 57.0464565,
+      "lon": 9.9136926
+    },
+    {
+      "type": "node",
+      "id": 7417394231,
+      "lat": 57.0465164,
+      "lon": 9.9136356
+    },
+    {
+      "type": "node",
+      "id": 7417394232,
+      "lat": 57.0467739,
+      "lon": 9.9142974
+    },
+    {
+      "type": "node",
+      "id": 7417394235,
+      "lat": 57.0452776,
+      "lon": 9.9129607
+    },
+    {
+      "type": "node",
+      "id": 7417394236,
+      "lat": 57.045322,
+      "lon": 9.9127503
+    },
+    {
+      "type": "node",
+      "id": 7417394237,
+      "lat": 57.0445416,
+      "lon": 9.9126659
+    },
+    {
+      "type": "node",
+      "id": 7576737994,
+      "lat": 57.0474546,
+      "lon": 9.9191727
+    },
+    {
+      "type": "node",
+      "id": 7576737999,
+      "lat": 57.0478608,
+      "lon": 9.9187199
+    },
+    {
+      "type": "node",
+      "id": 7576738032,
+      "lat": 57.0477474,
+      "lon": 9.9191372
+    },
+    {
+      "type": "node",
+      "id": 7627625226,
+      "lat": 57.0474813,
+      "lon": 9.9191899
+    },
+    {
+      "type": "node",
+      "id": 7627625227,
+      "lat": 57.0474991,
+      "lon": 9.9192029
+    },
+    {
+      "type": "node",
+      "id": 7627625232,
+      "lat": 57.0472045,
+      "lon": 9.9190042
+    },
+    {
+      "type": "node",
+      "id": 7627625236,
+      "lat": 57.0473052,
+      "lon": 9.9174929
+    },
+    {
+      "type": "node",
+      "id": 7627625240,
+      "lat": 57.0477798,
+      "lon": 9.9154059,
+      "tags": {
+        "cycleway": "asl"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7627625249,
+      "lat": 57.0483411,
+      "lon": 9.9160734
+    },
+    {
+      "type": "node",
+      "id": 7627625267,
+      "lat": 57.0476385,
+      "lon": 9.9176499
+    },
+    {
+      "type": "node",
+      "id": 7627625270,
+      "lat": 57.047284,
+      "lon": 9.9175738
+    },
+    {
+      "type": "node",
+      "id": 7627625283,
+      "lat": 57.0476233,
+      "lon": 9.917831
+    },
+    {
+      "type": "node",
+      "id": 7627625284,
+      "lat": 57.0475922,
+      "lon": 9.9179991
+    },
+    {
+      "type": "node",
+      "id": 7627673405,
+      "lat": 57.0481392,
+      "lon": 9.9183205
+    },
+    {
+      "type": "node",
+      "id": 7627673477,
+      "lat": 57.047657,
+      "lon": 9.9195816
+    },
+    {
+      "type": "node",
+      "id": 7627673523,
+      "lat": 57.0475811,
+      "lon": 9.9200468
+    },
+    {
+      "type": "node",
+      "id": 7627673558,
+      "lat": 57.0476122,
+      "lon": 9.9198435
+    },
+    {
+      "type": "node",
+      "id": 7627673563,
+      "lat": 57.0468734,
+      "lon": 9.9189116
+    },
+    {
+      "type": "node",
+      "id": 7627673569,
+      "lat": 57.0477826,
+      "lon": 9.9189659
+    },
+    {
+      "type": "node",
+      "id": 7627673573,
+      "lat": 57.0477199,
+      "lon": 9.9192703
+    },
+    {
+      "type": "node",
+      "id": 7627673590,
+      "lat": 57.0476424,
+      "lon": 9.9177278
+    },
+    {
+      "type": "node",
+      "id": 7638891039,
+      "lat": 57.0481124,
+      "lon": 9.9173902
+    },
+    {
+      "type": "node",
+      "id": 7638891040,
+      "lat": 57.0474658,
+      "lon": 9.9167499,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7638891042,
+      "lat": 57.0475313,
+      "lon": 9.916679
+    },
+    {
+      "type": "node",
+      "id": 7638891045,
+      "lat": 57.0470531,
+      "lon": 9.9183293
+    },
+    {
+      "type": "node",
+      "id": 7638891046,
+      "lat": 57.0472561,
+      "lon": 9.9176679
+    },
+    {
+      "type": "node",
+      "id": 7638891052,
+      "lat": 57.0474252,
+      "lon": 9.9191527
+    },
+    {
+      "type": "node",
+      "id": 7638891053,
+      "lat": 57.047039,
+      "lon": 9.9188928
+    },
+    {
+      "type": "node",
+      "id": 7638891054,
+      "lat": 57.0471597,
+      "lon": 9.9189741
+    },
+    {
+      "type": "node",
+      "id": 7638891055,
+      "lat": 57.0470911,
+      "lon": 9.9189279
+    },
+    {
+      "type": "node",
+      "id": 7638891056,
+      "lat": 57.0473572,
+      "lon": 9.919107
+    },
+    {
+      "type": "node",
+      "id": 7638891057,
+      "lat": 57.0473974,
+      "lon": 9.9191341
+    },
+    {
+      "type": "node",
+      "id": 7638891079,
+      "lat": 57.0479363,
+      "lon": 9.9184697
+    },
+    {
+      "type": "node",
+      "id": 7785869605,
+      "lat": 57.0443126,
+      "lon": 9.9166103
+    },
+    {
+      "type": "node",
+      "id": 7785869681,
+      "lat": 57.048673,
+      "lon": 9.9141539,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7785869683,
+      "lat": 57.0482334,
+      "lon": 9.9135568,
+      "tags": {
+        "direction": "backward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7785894190,
+      "lat": 57.047708,
+      "lon": 9.9147816
+    },
+    {
+      "type": "node",
+      "id": 7947560573,
+      "lat": 57.0482042,
+      "lon": 9.9171756
+    },
+    {
+      "type": "node",
+      "id": 7966452009,
+      "lat": 57.0459591,
+      "lon": 9.9155762
+    },
+    {
+      "type": "node",
+      "id": 8251044845,
+      "lat": 57.0458799,
+      "lon": 9.9154535,
+      "tags": {
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8251044846,
+      "lat": 57.0458007,
+      "lon": 9.9152305
+    },
+    {
+      "type": "node",
+      "id": 8530202857,
+      "lat": 57.0442829,
+      "lon": 9.9134432
+    },
+    {
+      "type": "node",
+      "id": 8579895919,
+      "lat": 57.0459674,
+      "lon": 9.9155843,
+      "tags": {
+        "crossing": "no",
+        "highway": "traffic_signals",
+        "traffic_signals": "traffic_lights",
+        "traffic_signals:direction": "backward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8579895920,
+      "lat": 57.0461287,
+      "lon": 9.9156952,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:markings": "zebra",
+        "highway": "crossing",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "yes",
+        "traffic_signals:vibration": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8750894952,
+      "lat": 57.0439874,
+      "lon": 9.9213595,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8765767568,
+      "lat": 57.0455566,
+      "lon": 9.9162508
+    },
+    {
+      "type": "node",
+      "id": 8802978167,
+      "lat": 57.0466806,
+      "lon": 9.9194681
+    },
+    {
+      "type": "node",
+      "id": 8902657228,
+      "lat": 57.0458389,
+      "lon": 9.9136355
+    },
+    {
+      "type": "node",
+      "id": 8902657232,
+      "lat": 57.0458022,
+      "lon": 9.9136925
+    },
+    {
+      "type": "node",
+      "id": 8902657234,
+      "lat": 57.045857,
+      "lon": 9.913917
+    },
+    {
+      "type": "node",
+      "id": 8902657235,
+      "lat": 57.0457252,
+      "lon": 9.9140278
+    },
+    {
+      "type": "node",
+      "id": 8902657236,
+      "lat": 57.0459039,
+      "lon": 9.9155024
+    },
+    {
+      "type": "node",
+      "id": 8902657237,
+      "lat": 57.0459406,
+      "lon": 9.9155559
+    },
+    {
+      "type": "node",
+      "id": 8902657238,
+      "lat": 57.0453238,
+      "lon": 9.9155803
+    },
+    {
+      "type": "node",
+      "id": 8902657239,
+      "lat": 57.0458577,
+      "lon": 9.9153934,
+      "tags": {
+        "button_operated": "yes",
+        "crossing": "traffic_signals",
+        "crossing:island": "no",
+        "highway": "crossing",
+        "kerb": "flush",
+        "tactile_paving": "yes",
+        "traffic_signals:sound": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9163206824,
+      "lat": 57.046762,
+      "lon": 9.9160821
+    },
+    {
+      "type": "node",
+      "id": 9875018062,
+      "lat": 57.0486282,
+      "lon": 9.9142783,
+      "tags": {
+        "access": "permissive",
+        "barrier": "gate",
+        "mapillary": "148708157588847"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10242767032,
+      "lat": 57.0475617,
+      "lon": 9.9176746,
+      "tags": {
+        "noexit": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10863452240,
+      "lat": 57.0478997,
+      "lon": 9.9145476,
+      "tags": {
+        "maxspeed": "30",
+        "traffic_sign": "maxspeed",
+        "traffic_sign:direction": "forward"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10916405646,
+      "lat": 57.0475466,
+      "lon": 9.9150089,
+      "tags": {
+        "traffic_sign:forward": "DK:E68.9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10916405647,
+      "lat": 57.0474927,
+      "lon": 9.9149436,
+      "tags": {
+        "note": "low-emission zone sign",
+        "traffic_sign:forward": "DK:E69.9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10916413416,
+      "lat": 57.0483553,
+      "lon": 9.9159178,
+      "tags": {
+        "note": "low-emission zone sign",
+        "traffic_sign:backward": "DK:E68.9",
+        "traffic_sign:forward": "DK:E69.9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10916413420,
+      "lat": 57.047884,
+      "lon": 9.9155563,
+      "tags": {
+        "note": "low-emission zone sign",
+        "traffic_sign:backward": "DK:E69.9",
+        "traffic_sign:forward": "DK:E68.9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10916413433,
+      "lat": 57.0453367,
+      "lon": 9.9127078,
+      "tags": {
+        "note": "low-emission zone sign",
+        "traffic_sign:forward": "DK:E69.9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10916413435,
+      "lat": 57.0446408,
+      "lon": 9.9122475,
+      "tags": {
+        "note": "low-emission zone sign",
+        "traffic_sign:backward": "DK:E69.9",
+        "traffic_sign:forward": "DK:E68.9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10967689475,
+      "lat": 57.0487658,
+      "lon": 9.9160517
+    },
+    {
+      "type": "node",
+      "id": 11906998112,
+      "lat": 57.0486389,
+      "lon": 9.9155125
+    },
+    {
+      "type": "node",
+      "id": 11979107641,
+      "lat": 57.0441554,
+      "lon": 9.914834
+    },
+    {
+      "type": "node",
+      "id": 11979115124,
+      "lat": 57.0443924,
+      "lon": 9.9131193,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11985255233,
+      "lat": 57.0471122,
+      "lon": 9.9149068
+    },
+    {
+      "type": "node",
+      "id": 12118665809,
+      "lat": 57.0483495,
+      "lon": 9.9183409,
+      "tags": {
+        "direction": "forward",
+        "highway": "give_way"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12118665811,
+      "lat": 57.048185,
+      "lon": 9.9183429
+    },
+    {
+      "type": "node",
+      "id": 12125424227,
+      "lat": 57.0480025,
+      "lon": 9.9180577
+    },
+    {
+      "type": "node",
+      "id": 12125446116,
+      "lat": 57.0480392,
+      "lon": 9.9182731
+    },
+    {
+      "type": "node",
+      "id": 12125446123,
+      "lat": 57.0481033,
+      "lon": 9.9183026
+    },
+    {
+      "type": "node",
+      "id": 12628539864,
+      "lat": 57.0459962,
+      "lon": 9.9156077
+    },
+    {
+      "type": "way",
+      "id": 7953462,
+      "nodes": [
+        3498852470,
+        10916413420,
+        28390853,
+        6146664811,
+        1345222743,
+        7638891042,
+        29978689
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vingårdsgade",
+        "name:etymology:wikidata": "Q12327502",
+        "oneway": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 7953465,
+      "nodes": [
+        3738515671,
+        7627625227,
+        7627625226,
+        7576737994,
+        7638891052,
+        7638891057,
+        7638891056,
+        7627625232,
+        7638891054,
+        7638891055,
+        7638891053,
+        29978688
+      ],
+      "tags": {
+        "fixme": "New access in effect pr 2021-07-09, survey needed",
+        "highway": "living_street",
+        "lit": "yes",
+        "maxspeed:advisory": "15",
+        "mofa": "yes",
+        "motor_vehicle": "no",
+        "name": "Budolfi Plads",
+        "name:etymology:wikidata": "Q601654",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "source:maxspeed": "DK:urban",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8040159,
+      "nodes": [
+        1613248232,
+        3498996476,
+        1613248234,
+        1613248252,
+        1201440159,
+        3498815885,
+        3498815886,
+        3498815887
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Urbansgade",
+        "name:etymology:wikidata": "Q131705863",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8040160,
+      "nodes": [
+        3498852474,
+        10916405646,
+        3498996481,
+        3498996480
+      ],
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "name": "Stengade",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8040162,
+      "nodes": [
+        10863452240,
+        1613248230,
+        1613248231,
+        3498996477,
+        1613248232
+      ],
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Ladegårdsgade",
+        "name:etymology:wikidata": "Q131620194",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8041852,
+      "nodes": [
+        60116062,
+        3672136766
+      ],
+      "tags": {
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "ref": "180",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8041855,
+      "nodes": [
+        60126669,
+        7417394231,
+        2818253808,
+        3672136767
+      ],
+      "tags": {
+        "bridge": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight:signed": "no",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "placement": "right_of:1",
+        "ref": "180",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "turn:lanes": "||right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8148779,
+      "nodes": [
+        60126670,
+        3548493242,
+        3672136769
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "placement": "right_of:1",
+        "ref": "180",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "turn:lanes": "||right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8148780,
+      "nodes": [
+        60116062,
+        3548505991,
+        3548505990,
+        6146664832
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "ref": "180",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "turn:lanes:backward": "through|through"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8166687,
+      "nodes": [
+        1608578441,
+        3393608103
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Prinsensgade",
+        "oneway": "yes",
+        "placement": "middle_of:2",
+        "ref": "O1",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "turn:lanes": "left|none"
+      }
+    },
+    {
+      "type": "way",
+      "id": 8166939,
+      "nodes": [
+        316820788,
+        8802978167,
+        3736641624,
+        2818483565,
+        7627673563,
+        29978688
+      ],
+      "tags": {
+        "access": "destination",
+        "bus": "designated",
+        "delivery": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vingårdsgade",
+        "name:etymology:wikidata": "Q12327502",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:bus": "no",
+        "psv": "designated",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25660147,
+      "nodes": [
+        7627673405,
+        12118665811,
+        2254770769,
+        577348543,
+        279727749,
+        1025558636,
+        861509264
+      ],
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "name": "Adelgade",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31899038,
+      "nodes": [
+        357260845,
+        357260767,
+        4818634087,
+        8765767568,
+        357260765,
+        357262549
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Christiansgade",
+        "name:etymology:wikidata": "Q151305",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "7"
+      }
+    },
+    {
+      "type": "way",
+      "id": 31899163,
+      "nodes": [
+        357260845,
+        357264574,
+        357261295,
+        357261551,
+        8750894952,
+        357261595
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Christiansgade",
+        "name:etymology:wikidata": "Q151305",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 71452350,
+      "nodes": [
+        1064598006,
+        7417394235,
+        7417394236,
+        10916413433,
+        850154946
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Frederikskildevej",
+        "name:etymology:wikidata": "Q155002",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 71536608,
+      "nodes": [
+        29978692,
+        8902657238,
+        3548069002,
+        1064674173,
+        3548069000,
+        1064674209,
+        7785869605
+      ],
+      "tags": {
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Prinsensgade",
+        "oneway": "yes",
+        "ref": "O1",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 72585630,
+      "nodes": [
+        3775855690,
+        3738516180,
+        280827110
+      ],
+      "tags": {
+        "highway": "living_street",
+        "lit": "yes",
+        "name": "Klosterjordet",
+        "name:etymology:wikidata": "Q5908787",
+        "oneway": "no",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 81370727,
+      "nodes": [
+        641420142,
+        1064727163
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Louisegade",
+        "name:etymology:wikidata": "Q166028",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 88291585,
+      "nodes": [
+        28390856,
+        3548493248,
+        3548493247,
+        60116063
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "180;O1",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "turn:lanes": "left||"
+      }
+    },
+    {
+      "type": "way",
+      "id": 88291590,
+      "nodes": [
+        59316575,
+        7947560573,
+        1025558660,
+        7627625249
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "living_street",
+        "lit": "yes",
+        "maxspeed:advisory": "15",
+        "motor_vehicle": "no",
+        "motor_vehicle:conditional": "destination @ (length < 6)",
+        "name": "Algade",
+        "oneway": "no",
+        "sidewalk": "no",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 88291591,
+      "nodes": [
+        3738515671,
+        7627673573,
+        7576738032,
+        7627673569
+      ],
+      "tags": {
+        "highway": "living_street",
+        "lit": "yes",
+        "maxspeed:advisory": "15",
+        "mofa": "yes",
+        "motor_vehicle": "no",
+        "name": "Algade",
+        "oneway": "no",
+        "source:maxspeed": "DK:urban",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 91630869,
+      "nodes": [
+        850154933,
+        3672169926,
+        1064597976
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "yes",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 91630871,
+      "nodes": [
+        1064597975,
+        1064598004,
+        1064598047,
+        1064598012,
+        1064598058,
+        11979115124,
+        1064598024
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "yes",
+        "service": "driveway",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 104121157,
+      "nodes": [
+        1201440159,
+        2879817891,
+        2879817895,
+        2879817883,
+        1201440174,
+        11906998112
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 128572694,
+      "nodes": [
+        7417394232,
+        3548493244,
+        3548538907,
+        28390856
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "ref": "180;O1",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 148223179,
+      "nodes": [
+        1613248232,
+        7785869683,
+        2499260140,
+        4042020726,
+        4042020728,
+        4042020727,
+        2499260142,
+        1613248240,
+        1613248247,
+        2499260144,
+        1613272638,
+        1613248269,
+        1613248284
+      ],
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 159018264,
+      "nodes": [
+        316820788,
+        3736641622,
+        3736641621,
+        1711239504,
+        3397230925,
+        1711239499,
+        836622636,
+        1711239502,
+        364328730,
+        1711239488,
+        1711239495,
+        3736491746,
+        316449373
+      ],
+      "tags": {
+        "cycleway": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Boulevarden",
+        "oneway": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "width": "7.25"
+      }
+    },
+    {
+      "type": "way",
+      "id": 159018408,
+      "nodes": [
+        641420130,
+        357264574
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Louisegade",
+        "name:etymology:wikidata": "Q166028",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 165424744,
+      "nodes": [
+        1613248283,
+        2835247766,
+        1613267869,
+        1613248259,
+        7785869681,
+        1613248252
+      ],
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "maxspeed": "30",
+        "oneway": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 165430237,
+      "nodes": [
+        3358837537,
+        7627673523,
+        7627673558,
+        7627673477,
+        3738515671
+      ],
+      "tags": {
+        "fixme": "New access in effect pr 2021-07-09, survey needed",
+        "highway": "living_street",
+        "lit": "yes",
+        "maxspeed:advisory": "15",
+        "mofa": "yes",
+        "motor_vehicle": "no",
+        "name": "Algade",
+        "oneway": "yes",
+        "source:maxspeed": "DK:urban",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 167172596,
+      "nodes": [
+        29978689,
+        7638891040,
+        1025502420,
+        1025502372,
+        9163206824,
+        836622614,
+        836620042
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Jernbanegade",
+        "name:etymology:wikidata": "Q2204904",
+        "oneway": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 168735090,
+      "nodes": [
+        60116063,
+        3548493243,
+        7417394229,
+        60126669
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "ref": "180",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 216110264,
+      "nodes": [
+        2254770771,
+        12118665809,
+        2254770769
+      ],
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 266868061,
+      "nodes": [
+        2831200086,
+        2831200087,
+        8530202857,
+        2723701159,
+        2723701152
+      ],
+      "tags": {
+        "access": "private",
+        "highway": "service",
+        "layer": "-1",
+        "maxheight": "2.7",
+        "motor_vehicle": "private",
+        "oneway": "no",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 270290540,
+      "nodes": [
+        1064597976,
+        1064598005
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "yes",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 270290541,
+      "nodes": [
+        1064598031,
+        1064598064
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "yes",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 277070660,
+      "nodes": [
+        904827225,
+        10916413435,
+        3672169928,
+        3672169927,
+        7417394237
+      ],
+      "tags": {
+        "highway": "residential",
+        "lanes": "4",
+        "lanes:backward": "3",
+        "lanes:forward": "1",
+        "lit": "yes",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "placement:backward": "middle_of:2",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|left;through|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 278814935,
+      "nodes": [
+        2723701152,
+        2723701212,
+        2723701206
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 283908842,
+      "nodes": [
+        2877238525,
+        11985255233
+      ],
+      "tags": {
+        "highway": "service",
+        "maxheight": "2.70",
+        "oneway": "no",
+        "surface": "paving_stones",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 283908845,
+      "nodes": [
+        2877238527,
+        2877238525
+      ],
+      "tags": {
+        "highway": "service",
+        "maxheight": "2.70",
+        "oneway": "no",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 284202493,
+      "nodes": [
+        3498852474,
+        3498996479
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "3",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "placement:forward": "left_of:1",
+        "ref": "180;O1",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left||"
+      }
+    },
+    {
+      "type": "way",
+      "id": 284230225,
+      "nodes": [
+        2879817898,
+        2879817883
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 288616605,
+      "nodes": [
+        861509264,
+        279727751,
+        3738509253,
+        3775855691,
+        279727746
+      ],
+      "tags": {
+        "highway": "living_street",
+        "lit": "yes",
+        "name": "Adelgade",
+        "oneway": "yes",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 288616606,
+      "nodes": [
+        279727746,
+        861509130,
+        3738509251,
+        1025502416,
+        4032577614,
+        4032577613,
+        279727745
+      ],
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "name": "Adelgade",
+        "oneway": "yes",
+        "parking:left": "no",
+        "parking:right": "street_side",
+        "parking:right:access": "yes",
+        "parking:right:access:conditional": "no @ 07:00-20:00",
+        "parking:right:disabled:conditional": "designated @ 07:00-20:00",
+        "parking:right:maxstay:conditional": "1 hour @ 20:00-31:00",
+        "parking:right:orientation": "parallel",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342939770,
+      "nodes": [
+        3498852467,
+        28390851,
+        3498852465
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "placement": "left_of:2",
+        "ref": "180;O1",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "turn:lanes": "left|"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342939771,
+      "nodes": [
+        3498852474,
+        3498852473,
+        6146664812,
+        7627625240,
+        3498852472,
+        3498852470
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "placement": "left_of:1",
+        "ref": "180;O1",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "through|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342942573,
+      "nodes": [
+        3498852465,
+        2804437608,
+        3498852466,
+        3498852474
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "placement": "left_of:1",
+        "ref": "180;O1",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342957931,
+      "nodes": [
+        3498996480,
+        3498996482,
+        10916405647,
+        3498996479
+      ],
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "name": "Stengade",
+        "oneway": "yes",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 342957932,
+      "nodes": [
+        3498996479,
+        3548499856
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "ref": "180;O1",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|"
+      }
+    },
+    {
+      "type": "way",
+      "id": 348789821,
+      "nodes": [
+        3548521007,
+        4319648887
+      ],
+      "tags": {
+        "access": "permissive",
+        "highway": "service",
+        "motor_vehicle": "permissive",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362997598,
+      "nodes": [
+        3548499855,
+        28390856
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "5",
+        "lanes:backward": "2",
+        "lanes:forward": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "ref": "180;O1",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left||"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362997599,
+      "nodes": [
+        3672136767,
+        60116062
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "placement": "right_of:1",
+        "ref": "180",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "turn:lanes": "||right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362997600,
+      "nodes": [
+        3548499856,
+        3548499854,
+        3548499855
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "placement": "transition",
+        "ref": "180;O1",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362997601,
+      "nodes": [
+        3672136766,
+        2818251600,
+        7417394230,
+        60126670
+      ],
+      "tags": {
+        "bridge": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxweight:signed": "no",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "ref": "180",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362997602,
+      "nodes": [
+        3672136771,
+        1272395292,
+        3672136770
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "placement": "transition",
+        "ref": "180;O1",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362997603,
+      "nodes": [
+        3498852470,
+        3498852469,
+        3498852468,
+        3498852467
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "placement": "left_of:1",
+        "ref": "180;O1",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 362997604,
+      "nodes": [
+        3672136770,
+        1794069504,
+        10967689475
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "placement:forward": "middle_of:1",
+        "ref": "180;O1",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left|"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363001215,
+      "nodes": [
+        7417394237,
+        1064597975,
+        1064598024,
+        1064598054,
+        1064597960,
+        1064598033,
+        850154929,
+        1064598018,
+        1064598064,
+        850154931,
+        11979107641,
+        1024029527,
+        850154933,
+        850154934,
+        1064598039,
+        850154936
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 369173003,
+      "nodes": [
+        3393608103,
+        3729926477,
+        1064674158,
+        3548069001,
+        1064674254,
+        3548069003,
+        29978692
+      ],
+      "tags": {
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Prinsensgade",
+        "oneway": "yes",
+        "ref": "O1",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 370129635,
+      "nodes": [
+        280827110,
+        3738516036
+      ],
+      "tags": {
+        "covered": "yes",
+        "highway": "living_street",
+        "lit": "yes",
+        "name": "Klosterjordet",
+        "name:etymology:wikidata": "Q5908787",
+        "oneway": "no",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 370129636,
+      "nodes": [
+        3738516036,
+        5942858968
+      ],
+      "tags": {
+        "highway": "service",
+        "name": "Klosterjordet",
+        "name:etymology:wikidata": "Q5908787",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 374258347,
+      "nodes": [
+        1613248252,
+        9875018062,
+        3776284397,
+        3776284400,
+        3776284398,
+        3776284399
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 374258348,
+      "nodes": [
+        3776284400,
+        3776284403,
+        3776284401,
+        3776284402,
+        3776284404,
+        3776284403
+      ],
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 433043361,
+      "nodes": [
+        4319648887,
+        4319648886
+      ],
+      "tags": {
+        "access": "permissive",
+        "covered": "yes",
+        "highway": "service",
+        "maxheight": "3.45",
+        "motor_vehicle": "permissive",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 638876100,
+      "nodes": [
+        7627673569,
+        861509221,
+        7576737999,
+        7638891079,
+        279727750
+      ],
+      "tags": {
+        "hgv": "no",
+        "highway": "living_street",
+        "lit": "yes",
+        "maxspeed:advisory": "15",
+        "name": "Algade",
+        "oneway": "no",
+        "source:maxspeed": "DK:urban",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 638876101,
+      "nodes": [
+        370559164,
+        7627673590,
+        6020740609,
+        10242767032
+      ],
+      "tags": {
+        "highway": "living_street",
+        "level": "0;1",
+        "lit": "yes",
+        "maxlength": "10",
+        "maxspeed:advisory": "15",
+        "motor_vehicle": "destination",
+        "noname": "yes",
+        "oneway": "no",
+        "source:maxspeed": "DK:urban",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 644390339,
+      "nodes": [
+        6060577988,
+        2835247751,
+        1769728735,
+        2835247768,
+        2835247753,
+        1613248283
+      ],
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "maxspeed": "30",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 778637886,
+      "nodes": [
+        357260845,
+        3725561549
+      ],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "cycleway": "no",
+        "delivery": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "30",
+        "maxspeed:type": "sign",
+        "name": "Boulevarden",
+        "oneway": "no",
+        "oneway:bicycle": "no",
+        "oneway:bus": "no",
+        "psv": "yes",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "7.25"
+      }
+    },
+    {
+      "type": "way",
+      "id": 778637887,
+      "nodes": [
+        316449373,
+        3548078700,
+        1711239490,
+        1711239524,
+        641420142,
+        357260845
+      ],
+      "tags": {
+        "cycleway": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Boulevarden",
+        "oneway": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "width": "7.25"
+      }
+    },
+    {
+      "type": "way",
+      "id": 793248837,
+      "nodes": [
+        3672136769,
+        7417394232
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "yes",
+        "ref": "180;O1",
+        "sidewalk": "right",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 816694339,
+      "nodes": [
+        7627625249,
+        10916413416,
+        5977756217
+      ],
+      "tags": {
+        "hgv:backward:conditional": "yes @ (Mo-Sa 05:00-11:00)",
+        "highway": "living_street",
+        "lit": "yes",
+        "maxspeed:advisory": "15",
+        "motor_vehicle": "no",
+        "name": "Algade",
+        "oneway": "no",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 816694341,
+      "nodes": [
+        279727750,
+        12125424227,
+        370559164,
+        7638891039,
+        59316575
+      ],
+      "tags": {
+        "highway": "living_street",
+        "lit": "yes",
+        "maxspeed:advisory": "15",
+        "name": "Algade",
+        "oneway": "no",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 816694352,
+      "nodes": [
+        6020740609,
+        7627625267,
+        6020740610
+      ],
+      "tags": {
+        "highway": "service",
+        "level": "0;1",
+        "maxlength": "10",
+        "maxspeed": "50",
+        "maxspeed:advisory": "15",
+        "motor_vehicle": "destination",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "source:maxspeed": "DK:urban",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 816694360,
+      "nodes": [
+        7627625283,
+        7627625284
+      ],
+      "tags": {
+        "highway": "living_street",
+        "incline": "up",
+        "level": "0;1",
+        "maxaxleload": "9",
+        "maxheight:signed": "no",
+        "maxlength": "10",
+        "maxspeed:advisory": "15",
+        "maxweight": "16",
+        "motor_vehicle": "delivery",
+        "oneway": "no",
+        "source:maxspeed": "DK:urban",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "asphalt",
+        "tunnel": "building_passage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 816694361,
+      "nodes": [
+        7627673590,
+        7627625283
+      ],
+      "tags": {
+        "highway": "living_street",
+        "incline": "up",
+        "level": "0;1",
+        "maxaxleload": "9",
+        "maxlength": "10",
+        "maxspeed:advisory": "15",
+        "maxweight": "16",
+        "motor_vehicle": "delivery",
+        "noname": "yes",
+        "oneway": "no",
+        "source:maxspeed": "DK:urban",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 816694368,
+      "nodes": [
+        279727750,
+        12125446116,
+        12125446123,
+        7627673405
+      ],
+      "tags": {
+        "highway": "living_street",
+        "lit": "yes",
+        "maxspeed:advisory": "15",
+        "name": "Adelgade",
+        "oneway": "yes",
+        "source:maxspeed:advisory": "DK:zone:living_street",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 834051025,
+      "nodes": [
+        7785869605,
+        3729926476,
+        3393608104,
+        29978702
+      ],
+      "tags": {
+        "cycleway": "right",
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Prinsensgade",
+        "oneway": "yes",
+        "ref": "O1",
+        "sidewalk": "separate",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 837845105,
+      "nodes": [
+        29978688,
+        7214881202,
+        7638891045,
+        7638891046,
+        7627625270,
+        7627625236
+      ],
+      "tags": {
+        "access": "destination",
+        "bus": "designated",
+        "bus_bay": "left",
+        "delivery": "yes",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vingårdsgade",
+        "name:etymology:wikidata": "Q12327502",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "oneway:bus": "no",
+        "psv": "designated",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 854226690,
+      "nodes": [
+        29978686,
+        12628539864,
+        8579895919,
+        7966452009
+      ],
+      "tags": {
+        "cycleway:right": "track",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Jernbanegade",
+        "name:etymology:wikidata": "Q2204904",
+        "oneway": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 854226691,
+      "nodes": [
+        8251044845,
+        8902657239,
+        8251044846
+      ],
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "residential",
+        "lane_markings": "yes",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Jernbanegade",
+        "name:etymology:wikidata": "Q2204904",
+        "oneway": "no",
+        "placement:forward": "left_of:1",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 870513103,
+      "nodes": [
+        1064727163,
+        641420130
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Louisegade",
+        "name:etymology:wikidata": "Q166028",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "sidewalk": "both",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924460984,
+      "nodes": [
+        8579895920,
+        29978686
+      ],
+      "tags": {
+        "cycleway:right": "track",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Jernbanegade",
+        "name:etymology:wikidata": "Q2204904",
+        "oneway": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "width": "6"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924460985,
+      "nodes": [
+        7966452009,
+        8902657237,
+        8902657236,
+        8251044845
+      ],
+      "tags": {
+        "cycleway:right": "track",
+        "highway": "residential",
+        "lane_markings": "yes",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Jernbanegade",
+        "name:etymology:wikidata": "Q2204904",
+        "oneway": "no",
+        "placement:forward": "left_of:1",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 924841436,
+      "nodes": [
+        836620042,
+        6119729709,
+        8579895920
+      ],
+      "tags": {
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Jernbanegade",
+        "name:etymology:wikidata": "Q2204904",
+        "oneway": "no",
+        "sidewalk": "both",
+        "source:maxspeed": "DK:urban",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962446629,
+      "nodes": [
+        1064629672,
+        850154943
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "1",
+        "oneway": "no",
+        "service": "driveway",
+        "sidewalk": "right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962446630,
+      "nodes": [
+        8902657234,
+        850154943
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "1",
+        "oneway": "no",
+        "service": "driveway"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962446639,
+      "nodes": [
+        1064602111,
+        8902657235,
+        8902657234
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "1",
+        "oneway": "no",
+        "service": "driveway",
+        "sidewalk": "right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962446640,
+      "nodes": [
+        850154943,
+        8902657228,
+        8902657232
+      ],
+      "tags": {
+        "highway": "service",
+        "lanes": "1",
+        "oneway": "no",
+        "service": "driveway"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1168112650,
+      "nodes": [
+        3498996480,
+        1613248229,
+        3498996478,
+        7785894190,
+        60116069,
+        10863452240
+      ],
+      "tags": {
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "name": "Ladegårdsgade",
+        "name:etymology:wikidata": "Q131620194",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1180964427,
+      "nodes": [
+        5977756217,
+        6146664810,
+        3498852467
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "placement:forward": "middle_of:1",
+        "ref": "180;O1",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left|"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1180964428,
+      "nodes": [
+        10967689475,
+        6146664809,
+        5977756217
+      ],
+      "tags": {
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Vesterbro",
+        "oneway": "no",
+        "placement:forward": "middle_of:1",
+        "ref": "180;O1",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left|"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1283250928,
+      "nodes": [
+        1201440174,
+        1201440142
+      ],
+      "tags": {
+        "highway": "service",
+        "oneway": "no",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
+    }
+  ]
+}

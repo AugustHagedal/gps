@@ -3,7 +3,6 @@
 #include <math.h>
 #include "main.h"
 
-
 int main() {
     vector <Node> Nodes = {
         {57.0463891, 9.9135551},
