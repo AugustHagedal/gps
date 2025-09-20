@@ -9,6 +9,7 @@
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
+                "-I/opt/homebrew/include",
                 "${file}",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
