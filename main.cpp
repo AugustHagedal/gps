@@ -3,6 +3,8 @@
 #include <math.h>
 #include "main.h"
 
+using namespace std;
+
 int main() {
     vector <Node> Nodes = {
         {57.0463891, 9.9135551},
@@ -32,30 +34,43 @@ int main() {
     add_road(Graph,Nodes,8,9, true);
     add_road(Graph,Nodes,9,10, true);
 
-    vector<int> dist,prev;
-    int src = 0;
-    dijkstra(Graph, src, dist, prev);
-    cout << dist[10] << endl;
+    vector<int> path = findShortestPath(Graph, 0, 10);
+    
+    if (!path.empty()) {
+        cout << "Shortest path: ";
+        for (size_t i = 0; i < path.size(); ++i) {
+            cout << path[i];
+            if (i < path.size() - 1) cout << " -> ";
+        }
+        cout << endl;
+    } else {
+        cout << "No path found!" << endl;
+    }
 
 }
 
 
-void dijkstra(const vector<vector<Edge>>& graph, int src, vector<int>& dist,vector<int>&prev) {
+vector<int> findShortestPath(const vector<vector<Edge>>& graph, int src, int dest) {
     int n = graph.size();
     const int INF = numeric_limits<int>::max();
-    dist.assign(n, INF);
-    prev.assign(n, -1);
+    vector<int> dist(n, INF);
+    vector<int> prev(n, -1);
 
     using P = pair<int,int>;
     priority_queue<P, vector<P>, greater<P>> pq;
 
     dist[src] = 0;
     pq.push({0, src});
+    
     while (!pq.empty()) {
         auto [d, u] = pq.top(); pq.pop();
+        
+        if (u == dest) break;
+        
         if (d != dist[u]) continue;
+        
         for (const auto e : graph[u]) {
-            int nd = d+e.w;
+            int nd = d + e.w;
             int v = e.to;
             if (nd < dist[v]) {
                 cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << nd << "m"<< endl;
@@ -65,7 +80,17 @@ void dijkstra(const vector<vector<Edge>>& graph, int src, vector<int>& dist,vect
             }
         }
     }
+    
+    vector<int> path;
+    if (dist[dest] == INF) return path; 
+    
+    for (int at = dest; at != -1; at = prev[at]) {
+        path.push_back(at);
+    }
+    reverse(path.begin(), path.end());
+    return path;
 }
+
 
 
 double haversine(double lat1, double lon1, double lat2, double lon2) {
