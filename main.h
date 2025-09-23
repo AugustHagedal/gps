@@ -1,17 +1,23 @@
+#pragma once
+#include <string>
+#include <vector>
+
 using namespace std;
 
 struct Node {
-    double lat, lon;
+    string type;
+    long id;
+    long double lat;
+    long double lon;
 };
 
 struct Edge {
     int to, w;
 };
 
-double haversine(double lat1, double lon1, double lat2, double lon2);
+long double haversine(long double lat1, long double lon1, long double lat2, long double lon2);
 vector<int> findShortestPath(const vector<vector<Edge>>& graph, int src, int dest);
-void add_edge(vector<vector<Edge>>& graph,int src, int dest, int w) {
-    graph[src].push_back({dest,w});
-}
+
+void add_edge(vector<vector<Edge>>& graph,int src, int dest, int w);
 
 void add_road(vector<vector<Edge>>& G, const vector<Node>& nodes,int u, int v,bool oneway);
