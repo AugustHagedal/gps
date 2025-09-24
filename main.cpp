@@ -23,7 +23,6 @@ int main() {
     for(Ways way: ways){
         n = way.nodes.size();
         prev_index = -1;
-        cout << way.name <<endl;
         for(long long wn: way.nodes){
             auto it = id_to_index.find(wn);
             if (it != id_to_index.end()) { 
@@ -32,13 +31,14 @@ int main() {
                     //cout << "Road added from: " << prev_index << " to: " <<it->second <<endl;
                 }
                     prev_index = it->second;
-                    //cout << "   Node: "<< it->first << " at: " << it->second <<endl;
+                    if(it->first==251740394||it->first==9483276305){
+                    cout << way.name << "   Node: "<< it->first << " at: " << it->second <<endl;
+                    }
                 
             }
         }
     }
-
-    vector<int> path = findShortestPath(Graph, 1500, 2000);
+    vector<int> path = findShortestPath(Graph,1352,19851);
     
     /*if (!path.empty()) {
         cout << "Shortest path: ";
@@ -80,7 +80,7 @@ vector<int> findShortestPath(const vector<vector<Edge>>& graph, int src, int des
             int newdist = d + e.w;
             int v = e.to;
             if (newdist < dist[v]) {
-              //  cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << newdist << "m"<< endl;
+                //cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << newdist << "m"<< endl;
                 dist[v] = newdist;
                 prev[v] = u;
                 pq.push({newdist, v});
@@ -96,10 +96,9 @@ vector<int> findShortestPath(const vector<vector<Edge>>& graph, int src, int des
     }
     reverse(path.begin(), path.end());
 
-
     if(dist[dest]>1000){
         int kmval = dist[dest]/1000;
-        int meterval = dist[dest]-1000*kmval;
+        double meterval = (dist[dest]-1000*kmval)/100;
         cout << "Afstand fra: " << src <<" til: " <<dest<< " er: " << kmval <<"."<<meterval<<" kilometer" <<endl;
     }
     else 
