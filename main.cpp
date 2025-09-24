@@ -4,20 +4,52 @@
 #include "main.h"
 #include "loader/city_loader.h"
 
-
 using namespace std;
 
 
 int main() {
 
-    vector <Node> Nodes = loadNodes("../data/aalborg_roads.json");
-    int n = Nodes.size();
-    vector<vector<Edge>> Graph(n);
+    auto result = loadNodes("../data/aalborg_roads.json");
+    vector<Node> nodes = result.first;
+    unordered_map<long long, size_t> id_to_index = result.second;
+    vector <Ways> ways = loadWays("../data/aalborg_roads.json");
 
-    cout << std::fixed << std::setprecision(10); 
-    for(int i = 0; i < 100; i++){
-        cout <<"Number: " << i+1 << " Node id: " << Nodes[i].id << " Node lat: " << Nodes[i].lat << endl;
+    int n = nodes.size();
+    vector<vector<Edge>> Graph(n);
+    
+    int prev_index = -1;
+
+
+    for(Ways way: ways){
+        n = way.nodes.size();
+        prev_index = -1;
+        for(long long wn: way.nodes){
+            auto it = id_to_index.find(wn);
+            if (it != id_to_index.end()) { 
+                if(prev_index != -1 && prev_index != it->second){
+                    add_road(Graph, nodes, prev_index, it->second, false); 
+                    //cout << "Road added from: " << prev_index << " to: " <<it->second <<endl;
+                }
+                    prev_index = it->second;
+                    //cout << "   Node: "<< it->first << " at: " << it->second <<endl;
+                
+            }
+        }
     }
+
+    vector<int> path = findShortestPath(Graph, 1500, 2000);
+    
+    /*if (!path.empty()) {
+        cout << "Shortest path: ";
+        for (size_t i = 0; i < path.size(); ++i) {
+            cout << path[i];
+            if (i < path.size() - 1) cout << " -> ";
+        }
+        cout << endl;
+    } else {
+        cout << "No path found!" << endl;
+    }*/
+
 
 }
 
@@ -35,6 +67,7 @@ vector<int> findShortestPath(const vector<vector<Edge>>& graph, int src, int des
     dist[src] = 0;
     pq.push({0, src});
     
+    
     while (!pq.empty()) {
         auto [d, u] = pq.top(); pq.pop();
         
@@ -46,7 +79,7 @@ vector<int> findShortestPath(const vector<vector<Edge>>& graph, int src, int des
             int newdist = d + e.w;
             int v = e.to;
             if (newdist < dist[v]) {
-                cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << newdist << "m"<< endl;
+              //  cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << newdist << "m"<< endl;
                 dist[v] = newdist;
                 prev[v] = u;
                 pq.push({newdist, v});
@@ -61,6 +94,15 @@ vector<int> findShortestPath(const vector<vector<Edge>>& graph, int src, int des
         path.push_back(at);
     }
     reverse(path.begin(), path.end());
+
+
+    if(dist[dest]>1000){
+        int kmval = dist[dest]/1000;
+        int meterval = dist[dest]-1000*kmval;
+        cout << "Afstand fra: " << src <<" til: " <<dest<< " er: " << kmval <<"."<<meterval<<" kilometer" <<endl;
+    }
+    else 
+        cout << "Afstand fra: " << src <<" til: " <<dest<< " er: " <<dist[dest] <<" meter" <<endl;
     return path;
 }
 
