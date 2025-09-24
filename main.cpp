@@ -23,6 +23,7 @@ int main() {
     for(Ways way: ways){
         n = way.nodes.size();
         prev_index = -1;
+        cout << way.name <<endl;
         for(long long wn: way.nodes){
             auto it = id_to_index.find(wn);
             if (it != id_to_index.end()) { 

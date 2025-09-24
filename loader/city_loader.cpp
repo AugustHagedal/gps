@@ -15,7 +15,8 @@ namespace nlohmann {
             j = json{
                 {"type", way.type},
                 {"id", way.id},
-                {"nodes", way.nodes}
+                {"nodes", way.nodes},
+                {"name", way.name}
             };
         }
 
@@ -24,9 +25,18 @@ namespace nlohmann {
                 j.at("type").get_to(way.type);
                 j.at("id").get_to(way.id);
                 j.at("nodes").get_to(way.nodes);
+
+                if (j.contains("tags") && j["tags"].is_object()) {
+                    if (j["tags"].contains("name")) {
+                        j["tags"]["name"].get_to(way.name);
+                    }
+                }
             } catch (json::exception& e) {
                 std::cerr << "Error parsing Ways JSON: " << e.what() << std::endl;
+                way.type = "unknown";
+                way.id = -1;
                 way.nodes.clear();
+                way.name = "Unknown";
             }
         }
     };

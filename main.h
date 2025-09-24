@@ -21,6 +21,7 @@ struct Ways {
     std::string type;
     long long id;
     std::vector<long long> nodes;
+    std::string name;
 };
 
 struct Edge {
