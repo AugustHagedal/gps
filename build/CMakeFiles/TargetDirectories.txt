@@ -1,3 +1,0 @@
-/Users/admin/CLionProjects/gps/build/CMakeFiles/gps.dir
-/Users/admin/CLionProjects/gps/build/CMakeFiles/edit_cache.dir
-/Users/admin/CLionProjects/gps/build/CMakeFiles/rebuild_cache.dir
