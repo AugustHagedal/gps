@@ -9,10 +9,10 @@ using namespace std;
 
 int main() {
 
-    auto result = loadNodes("../data/aalborg_roads.json");
+    auto result = loadNodes("../data/berlin_roads.json");
     vector<Node> nodes = result.first;
     unordered_map<long long, size_t> id_to_index = result.second;
-    vector <Ways> ways = loadWays("../data/aalborg_roads.json");
+    vector <Ways> ways = loadWays("../data/berlin_roads.json");
 
     int n = nodes.size();
     vector<vector<Edge>> Graph(n);
@@ -27,23 +27,23 @@ int main() {
             auto it = id_to_index.find(wn);
             if (it != id_to_index.end()) { 
                 if(prev_index != -1 && prev_index != it->second){
-                    add_road(Graph, nodes, prev_index, it->second, false); 
+                    add_road(Graph, nodes, prev_index, it->second, way.oneway); 
                     //cout << "Road added from: " << prev_index << " to: " <<it->second <<endl;
                 }
                     prev_index = it->second;
-                    if(it->first==251740394||it->first==9483276305){
+                    if(it->first==4612182490||it->first==11396807446){
                     cout << way.name << "   Node: "<< it->first << " at: " << it->second <<endl;
                     }
                 
             }
         }
     }
-    vector<int> path = findShortestPath(Graph,1352,19851);
+    vector<int> path = findShortestPath(Graph,138284,51934);
     
-    /*if (!path.empty()) {
+   /*if (!path.empty()) {
         cout << "Shortest path: ";
         for (size_t i = 0; i < path.size(); ++i) {
-            cout << path[i];
+            cout << nodes[path[i]].id;
             if (i < path.size() - 1) cout << " -> ";
         }
         cout << endl;
@@ -80,7 +80,7 @@ vector<int> findShortestPath(const vector<vector<Edge>>& graph, int src, int des
             int newdist = d + e.w;
             int v = e.to;
             if (newdist < dist[v]) {
-                //cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << newdist << "m"<< endl;
+              //  cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << newdist << "m"<< endl;
                 dist[v] = newdist;
                 prev[v] = u;
                 pq.push({newdist, v});

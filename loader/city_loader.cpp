@@ -16,19 +16,27 @@ namespace nlohmann {
                 {"type", way.type},
                 {"id", way.id},
                 {"nodes", way.nodes},
-                {"name", way.name}
+                {"name", way.name},
+                {"oneway", way.oneway}
             };
         }
 
         static void from_json(const json& j, Ways& way) {
+            string boolway;
             try {
                 j.at("type").get_to(way.type);
                 j.at("id").get_to(way.id);
                 j.at("nodes").get_to(way.nodes);
-
                 if (j.contains("tags") && j["tags"].is_object()) {
                     if (j["tags"].contains("name")) {
                         j["tags"]["name"].get_to(way.name);
+                    }
+                    if (j["tags"].contains("oneway")){
+                        j["tags"]["oneway"].get_to(boolway);
+                        if(boolway=="yes"){
+                            way.oneway = true;
+                        }
+                        else way.oneway = false;
                     }
                 }
             } catch (json::exception& e) {

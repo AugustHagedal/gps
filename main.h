@@ -20,8 +20,9 @@ struct Node {
 struct Ways {
     std::string type;
     long long id;
-    std::vector<long long> nodes;
-    std::string name;
+    vector<long long> nodes;
+    string name;
+    bool oneway;
 };
 
 struct Edge {
