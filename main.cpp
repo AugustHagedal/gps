@@ -12,35 +12,35 @@ int main() {
     auto result = loadNodes("../data/berlin_roads.json");
     vector<Node> nodes = result.first;
     unordered_map<long long, size_t> id_to_index = result.second;
-    vector <Ways> ways = loadWays("../data/berlin_roads.json");
-
     int n = nodes.size();
-    vector<vector<Edge>> Graph(n);
+    vector<vector<Edge>> Graph;
+    Graph.reserve(n);
+    Graph.resize(n);
     
+    vector <Ways> ways = loadWays("../data/berlin_roads.json");
+    
+
     int prev_index = -1;
-
-
-    for(Ways way: ways){
-        n = way.nodes.size();
+    for(const Ways& way: ways){  
+        if(way.nodes.size() < 2) continue;
+        
         prev_index = -1;
         for(long long wn: way.nodes){
             auto it = id_to_index.find(wn);
             if (it != id_to_index.end()) { 
                 if(prev_index != -1 && prev_index != it->second){
                     add_road(Graph, nodes, prev_index, it->second, way.oneway); 
-                    //cout << "Road added from: " << prev_index << " to: " <<it->second <<endl;
                 }
-                    prev_index = it->second;
-                    if(it->first==4612182490||it->first==11396807446){
+                prev_index = it->second;
+                if(it->first==5016500083||it->first==13125675587){
                     cout << way.name << "   Node: "<< it->first << " at: " << it->second <<endl;
-                    }
-                
+                }
             }
         }
     }
-    vector<int> path = findShortestPath(Graph,138284,51934);
+    vector<int> path = findShortestPath(Graph,54613,157705);
     
-   /*if (!path.empty()) {
+   if (!path.empty()) {
         cout << "Shortest path: ";
         for (size_t i = 0; i < path.size(); ++i) {
             cout << nodes[path[i]].id;
@@ -49,7 +49,7 @@ int main() {
         cout << endl;
     } else {
         cout << "No path found!" << endl;
-    }*/
+    }
 
 
 }

@@ -13,7 +13,6 @@ namespace nlohmann {
     struct adl_serializer<Ways> {
         static void to_json(json& j, const Ways& way) {
             j = json{
-                {"type", way.type},
                 {"id", way.id},
                 {"nodes", way.nodes},
                 {"name", way.name},
@@ -24,7 +23,6 @@ namespace nlohmann {
         static void from_json(const json& j, Ways& way) {
             string boolway;
             try {
-                j.at("type").get_to(way.type);
                 j.at("id").get_to(way.id);
                 j.at("nodes").get_to(way.nodes);
                 if (j.contains("tags") && j["tags"].is_object()) {
@@ -41,7 +39,6 @@ namespace nlohmann {
                 }
             } catch (json::exception& e) {
                 std::cerr << "Error parsing Ways JSON: " << e.what() << std::endl;
-                way.type = "unknown";
                 way.id = -1;
                 way.nodes.clear();
                 way.name = "Unknown";
@@ -55,7 +52,6 @@ namespace nlohmann {
     struct adl_serializer<Node> {
         static void to_json(json& j, const Node& config) {
             j = json{
-                {"type", config.type},
                 {"id", config.id},
                 {"lat", config.lat},
                 {"lon", config.lon}
@@ -64,23 +60,19 @@ namespace nlohmann {
 
         static void from_json(const json& j, Node& config) {
             try {
-
-                config.type = "";
                 config.id = 0;
-                config.lat = 0.0L;
-                config.lon = 0.0L;
+                config.lat = 0.0f;
+                config.lon = 0.0f;
                 
-                if (j.contains("type")) j.at("type").get_to(config.type);
                 if (j.contains("id")) j.at("id").get_to(config.id);
                 if (j.contains("lat")) j.at("lat").get_to(config.lat);
                 if (j.contains("lon")) j.at("lon").get_to(config.lon);
                 
             } catch (json::exception& e) {
                 std::cerr << "Error parsing JSON: " << e.what() << std::endl;
-                config.type = "unknown";
                 config.id = -1;
-                config.lat = 0.0L;
-                config.lon = 0.0L;
+                config.lat = 0.0f;
+                config.lon = 0.0f;
             }
         }
     };
@@ -143,7 +135,7 @@ pair<vector<Node>, unordered_map<long long, size_t>> loadNodes(const string& fil
 
                 
 
-                if (config.type == "node" && config.lat != 0.0 && config.lon != 0.0) {
+                if (config.lat != 0.0 && config.lon != 0.0) {
                     nodes.push_back(config);
                     id_to_index[config.id] = idx;
                     idx++;  

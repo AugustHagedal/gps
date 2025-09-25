@@ -11,14 +11,12 @@ using json = nlohmann::json;
 
 
 struct Node {
-    std::string type;
     long long id;
-    long double lat;
-    double lon;
+    float lat;          
+    float lon;
 };
 
 struct Ways {
-    std::string type;
     long long id;
     vector<long long> nodes;
     string name;
