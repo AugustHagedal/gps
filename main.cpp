@@ -13,6 +13,7 @@ int main() {
     vector<Node> nodes = result.first;
     unordered_map<long long, size_t> id_to_index = result.second;
     int n = nodes.size();
+    
     vector<vector<Edge>> Graph;
     Graph.reserve(n);
     Graph.resize(n);
@@ -32,15 +33,15 @@ int main() {
                     add_road(Graph, nodes, prev_index, it->second, way.oneway); 
                 }
                 prev_index = it->second;
-                if(it->first==5016500083||it->first==13125675587){
-                    cout << way.name << "   Node: "<< it->first << " at: " << it->second <<endl;
-                }
+                //if(it->first==5016500083||it->first==13125675587)
+                  //  cout << way.name << "   Node: "<< it->first << " at: " << it->second <<endl;
             }
         }
     }
+
     vector<int> path = findShortestPath(Graph,54613,157705);
     
-   if (!path.empty()) {
+  /* if (!path.empty()) {
         cout << "Shortest path: ";
         for (size_t i = 0; i < path.size(); ++i) {
             cout << nodes[path[i]].id;
@@ -49,7 +50,7 @@ int main() {
         cout << endl;
     } else {
         cout << "No path found!" << endl;
-    }
+    }*/
 
 
 }
@@ -126,6 +127,3 @@ void add_road(vector<vector<Edge>>& G, const vector<Node>& nodes,int u, int v, b
     if (!oneway) G[v].push_back({u,w});
 }
 
-void add_edge(vector<vector<Edge>>& graph,int src, int dest, int w) {
-    graph[src].push_back({dest,w});
-}
