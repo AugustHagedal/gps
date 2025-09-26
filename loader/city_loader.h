@@ -7,5 +7,4 @@
 
 using json = nlohmann::json;
 
-pair<vector<Node>, unordered_map<long long, size_t>> loadNodes(const string& filename);
-vector<Ways> loadWays(const string& filename);
+JSONData loadNodesAndWays(const string& filename);

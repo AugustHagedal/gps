@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <fstream>
 #include <iostream>
+#include <limits>
 
 
 using namespace std;
@@ -78,79 +79,52 @@ namespace nlohmann {
     };
 }
 
-
-
-vector<Ways> loadWays(const string& filename) {
-    vector<Ways> ways;
-
+JSONData loadNodesAndWays(const string& filename) {
+    JSONData data;
+    
     try {
         ifstream file(filename);
         if (!file.is_open()) {
             cerr << "Could not open file: " << filename << endl;
-            return ways;
+            return data;
         }
 
         json j;
         file >> j;
 
+        // Use YOUR existing logic for nodes
+        if (j.contains("elements") && j["elements"].is_array()) {
+            for (const auto& element : j["elements"]) {
+                if (element.contains("type") && element["type"] == "node") {
+                    Node node;
+                    node.id = element["id"];
+                    node.lat = element["lat"];
+                    node.lon = element["lon"];
+                    data.id_to_index[node.id] = data.nodes.size();
+                    data.nodes.push_back(node);
+                }
+            }
+        }
+        
+        cout << "Loaded " << data.nodes.size() << " nodes from " << filename << endl;
+
+        // Use YOUR existing logic for ways  
         if (j.contains("elements") && j["elements"].is_array()) {
             for (const auto& element : j["elements"]) {
                 if (element.contains("type") && element["type"] == "way") {
-                    Ways way = element.get<Ways>();
-                    ways.push_back(way);
+                    Ways way = element.get<Ways>(); // Uses YOUR deserialization logic
+                    data.ways.push_back(way);
                 }
             }
         }
-
-        cout << "Loaded " << ways.size() << " ways from " << filename << endl;
-
-    } catch (json::exception& e) {
-        cerr << "JSON parsing error: " << e.what() << endl;
-    } catch (exception& e) {
-        cerr << "Error loading file: " << e.what() << endl;
-    }
-
-    return ways;
-}
-
-pair<vector<Node>, unordered_map<long long, size_t>> loadNodes(const string& filename) {
-    vector<Node> nodes;
-    unordered_map<long long, size_t> id_to_index;
-    size_t idx = 0;
-
-    
-    try {
-        ifstream file(filename);
-        if (!file.is_open()) {
-            cerr << "Could not open file: " << filename << endl;
-            return {nodes, id_to_index};
-        }
         
-        json j;
-        file >> j;
-        
-        if (j.contains("elements") && j["elements"].is_array()) {
-            for (json element : j["elements"]) {
-                Node config = element.get<Node>();
+        cout << "Loaded " << data.ways.size() << " ways from " << filename << endl;
 
-                
-
-                if (config.lat != 0.0 && config.lon != 0.0) {
-                    nodes.push_back(config);
-                    id_to_index[config.id] = idx;
-                    idx++;  
-                }
-            
-            }
-        }
-        cout << "Loaded " << nodes.size() << " nodes from " << filename << endl;
-
-        
-    } catch (json::exception& e) {
+    } catch (json::parse_error& e) {
         cerr << "JSON parsing error: " << e.what() << endl;
     } catch (exception& e) {
         cerr << "Error loading file: " << e.what() << endl;
     }
     
-    return {nodes, id_to_index};
+    return data;
 }
