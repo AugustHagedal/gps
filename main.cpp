@@ -8,55 +8,19 @@ using namespace std;
 
 
 int main() {
-
-    JSONData data = loadNodesAndWays("../data/berlin_roads.json");
-    unordered_map<long long, size_t> id_to_index = data.id_to_index;
-    int n = data.nodes.size();
-
-    vector<int> edge_count(n, 0);
-
-    
-    int prev_index = -1;
-    for(const Ways& way: data.ways){  
-        if(way.nodes.size() < 2) continue;
-        
-        prev_index = -1;
-        for(long long wn: way.nodes){
-            auto it = id_to_index.find(wn);
-            if (it != id_to_index.end()) { 
-                if(prev_index != -1 && prev_index != it->second){
-                    count_road_edges(edge_count, prev_index, it->second, way.oneway); 
-                }
-                prev_index = it->second;
-            }
-        }
-    }
-    
     CSR csr;
-    csr.row_ptr.resize(n + 1);
-    csr.row_ptr[0] = 0;
-    for(int i = 0; i < n; i++) {
-        csr.row_ptr[i + 1] = csr.row_ptr[i] + edge_count[i];
+
+    if( !ifstream("../berlin_roads.bin")) {
+        cout << "Binary file not found, creating it..." << endl;
+        csr = loadToBinCSR("berlin_roads");
+        cout << "Binary file created." << endl;
+    } 
+    else {
+        cout << "Loading binary file..." << endl;
+        csr = loadFromBinCSR("berlin_roads");
+        cout << "Binary file loaded." << endl;
     }
-    csr.edges.resize(csr.row_ptr[n]);
-    
-    vector<size_t> current_pos = csr.row_ptr;
-    
-    prev_index = -1;
-    for(const Ways& way: data.ways){  
-        if(way.nodes.size() < 2) continue;
-        
-        prev_index = -1;
-        for(long long wn: way.nodes){
-            auto it = id_to_index.find(wn);
-            if (it != id_to_index.end()) { 
-                if(prev_index != -1 && prev_index != it->second){
-                    add_road(csr, current_pos, data.nodes, prev_index, it->second, way.oneway); 
-                }
-                prev_index = it->second;
-            }
-        }
-    }
+
 
     vector<int> path = findShortestPath(csr, 54613, 157705);
     
@@ -70,8 +34,7 @@ int main() {
     } else {
         cout << "No path found!" << endl;
     }*/
-
-
+    return 0;
 }
 
 
@@ -84,7 +47,6 @@ vector<int> findShortestPath(const CSR& csr, int src, int dest) {
 
     using P = pair<int,int>;
     priority_queue<P, vector<P>, greater<P>> pq;
-
     dist[src] = 0;
     pq.push({0, src});
     
@@ -96,7 +58,7 @@ vector<int> findShortestPath(const CSR& csr, int src, int dest) {
         
         if (d != dist[u]) continue;
 
-        for (size_t i = csr.row_ptr[u]; i < csr.row_ptr[u + 1]; ++i) {
+        for (int i = csr.row_ptr[u]; i < csr.row_ptr[u + 1]; ++i) {
             const auto& e = csr.edges[i];
             int newdist = d + e.w;
             int v = e.to;

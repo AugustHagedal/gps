@@ -117,9 +117,8 @@ JSONData loadNodesAndWays(const string& filename) {
                 }
             }
         }
-        
         cout << "Loaded " << data.ways.size() << " ways from " << filename << endl;
-
+        file.close();
     } catch (json::parse_error& e) {
         cerr << "JSON parsing error: " << e.what() << endl;
     } catch (exception& e) {

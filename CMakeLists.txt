@@ -8,7 +8,8 @@ find_package(nlohmann_json 3.2.0 REQUIRED)
 
 add_executable(gps 
 main.cpp
-loader/city_loader.cpp)
+loader/city_loader.cpp
+binaryLoader.cpp)
 
 # Link nlohmann/json
 target_link_libraries(gps nlohmann_json::nlohmann_json)

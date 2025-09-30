@@ -38,6 +38,8 @@ struct JSONData {
     vector<Ways> ways;
 };
 
+CSR loadToBinCSR(const string& filename);
+CSR loadFromBinCSR(const string& filename);
 
 long double haversine(long double lat1, long double lon1, long double lat2, long double lon2);
 
