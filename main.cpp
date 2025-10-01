@@ -10,14 +10,14 @@ using namespace std;
 int main() {
     CSR csr;
 
-    if( !ifstream("../berlin_roads.bin")) {
+    if( !ifstream("../aarhus_roads.bin")) {
         cout << "Binary file not found, creating it..." << endl;
-        csr = loadToBinCSR("berlin_roads");
+        csr = loadToBinCSR("aarhus_roads");
         cout << "Binary file created." << endl;
     } 
     else {
         cout << "Loading binary file..." << endl;
-        csr = loadFromBinCSR("berlin_roads");
+        csr = loadFromBinCSR("aarhus_roads");
         cout << "Binary file loaded." << endl;
     }
 
