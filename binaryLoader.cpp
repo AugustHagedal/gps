@@ -63,7 +63,7 @@ CSR loadToBinCSR(const string& filename) {
         size_t combined_size = row_size + edge_size;
         fout.write(reinterpret_cast<char*>(&row_size), sizeof(row_size));
         fout.write(reinterpret_cast<char*>(&edge_size), sizeof(edge_size));
-        
+
         fout.write(reinterpret_cast<char*>(csr.row_ptr.data()), row_size * sizeof(size_t));
         fout.write(reinterpret_cast<char*>(csr.edges.data()), edge_size * sizeof(Edge));
         fout.close();

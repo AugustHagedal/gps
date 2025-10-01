@@ -63,7 +63,6 @@ vector<int> findShortestPath(const CSR& csr, int src, int dest) {
             int newdist = d + e.w;
             int v = e.to;
             if (newdist < dist[v]) {
-              //  cout << u << "->" << v << " afstand: " << e.w << "m" << " samlet afstand: " << newdist << "m"<< endl;
                 dist[v] = newdist;
                 prev[v] = u;
                 pq.push({newdist, v});
